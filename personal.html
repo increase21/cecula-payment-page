@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/recharge.css">
+    <title>customer</title>
+    <page title="personal"></page>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <img src="./images/logo.svg" alt="cecula logo" class="main-logo">
+                <img src="./images/logo-mini.svg" alt="" class="mini-logo d-none">
+            </div>
+            <div>
+                <p class="fs-14 dark mb-20 mt-0"><span><img src="./images/phone.svg" alt="phone-icon"></span>0909-000-0246</p>
+            </div>
+        </header>
+        <div class="circle-center">
+            <div class="circle-cover">
+                <p class="fs-32 fw-B dark recharge">Recharge</p>
+                <p class="fs-12 fw-B grey d-none bundle">Customer Information</p>
+                <div class="step">
+                    <p class="fs-14 fw-B grey">Select Bundle</p>
+                    <p class="fs-14 fw-R grey">Customer Information</p>
+                    <p class="fs-14 fw-R grey mr-60">Make Payment</p>
+                    <p class="fs-14 fw-R grey mr-20">Receipt</p>
+                </div>
+                <div class="circle-holder">
+                    <div class="circle "></div>
+                    <div class="line"></div>
+                    <div class="circle circle2 active-circle"></div>
+                    <div class="line"></div>
+                    <div class="circle circle3"></div>
+                    <div class="line"></div>
+                    <div class="circle circle4"></div>
+                </div>
+            </div>
+        </div>
+        <div class="summary">
+            <p class="fs-14 grey fw-B"> Invoice Summary</p>
+            <table>
+                <tr class="bg-grey">
+                    <td class="pd-10 fs-11 fw-R light-grey left">Total Cost (N)</td>
+                    <td class="pd-10 fs-11 fw-R light-grey left">VAT (N)</td>
+                    <td class="pd-10 fs-11 fw-R light-grey right">Amount (N)</td>
+                </tr>
+                <tr class="bg-grey ">
+                    <th class="pd-10 fs-11 fw-B black left">12,000.00</th>
+                    <th class="pd-10 fs-11 fw-B black left">600.00</th>
+                    <th class="pd-10 fs-11 fw-B black right">12,500.00</th>
+                </tr>
+            </table>
+        </div>
+        <div class="personal bg-light mt-20">
+            <p class="center fw-B grey fs-14">PERSONAL INFORMATION</p>
+            <p class="p-response center red"></p>
+            <!-- row two form -->
+            <div class="flex-row mt-20 mb-20 row-1">
+                <div class="gender">
+                    <label class="fs-14 dark mb-2" for="title">Gender</label><span class="red">*</span><br>
+                    <select name="" id="gender_name" class="mb-10">
+                <option value=""  class="fs-14 dark">Select Gender</option>
+                <option value="Mr"  class="fs-14 dark">Male</option>
+                <option value="Mrs"  class="fs-14 dark">Female</option>
+                <option value="Miss"  class="fs-14 dark">Prefer Not To Say</option>
+            </select>
+                </div>
+                <div class="-name mb-10">
+                    <label class="fs-14 dark " for="given-name">Given Name</label> <span class="red">*</span> <br>
+                    <input class="width-100 input mt-5" id="given_name" name="given-name" value="" type="text" required>
+                </div>
+                <div class="-name mb-10">
+                    <label class="fs-14 dark " for="family-name">Family Name</label><span class="red">*</span><br>
+                    <input class="width-100 input mt-5" id="family_name" name="family-name" value="" type="text" required>
+                </div>
+            </div>
+            <div>
+                <label for="" class="fs-14 dark ">Company/Organization</label> <br>
+                <input type="text" class="width-100 input mt-5" id="company" name="company/organization" value="" type="text" required>
+            </div>
+        </div>
+        <div class="contact bg-light mt-20">
+            <p class="center fw-B grey fs-14">CONTACT INFORMATION</p>
+            <p class="c-response center red"></p>
+            <!-- row two form -->
+            <div class="width-100 mb-20">
+                <label class="fs-14 dark " for="email">Email</label><span class="red">*</span><br>
+                <input class="width-100 input mt-5" id="email" name="email" value="" type="email" required>
+            </div>
+            <!-- row three Form -->
+            <div class="width-100 mb-20">
+                <label class="fs-14 dark " for="address-1">Address (Line One)</label><span class="red">*</span><br>
+                <input class="width-100 input mt-5" id="address_one" name="address-1" value="" type="text" required>
+            </div>
+
+            <!-- row four Form -->
+            <div class="mb-20">
+                <label class="fs-14 dark mb-2" for="address-2">Address (Line Two)</label><br>
+                <input class="width-100 input mt-5" id="address_two" name="address-2" type="text">
+            </div>
+            <!-- row five Form -->
+            <div class="flex-row mb-20 location">
+                <div class="width-50">
+                    <label class="fs-14 dark" for="city">City</label><span class="red">*</span><br>
+                    <input class="width-100 mt-5 input " id="city" name="city" value="" type="text" required>
+                </div>
+                <div class="width-50">
+                    <label class="fs-14 dark" for="state">State</label><span class="red">*</span><br>
+                    <input class="width-100 input " id="state" name="state" value="" type="text" required>
+                </div>
+            </div>
+            <!-- row six Form -->
+            <div class="flex-row">
+                <div class="width-50 country">
+                    <label class="fs-14 dark" for="country">Country</label><span class="red">*</span><br>
+                    <input class="width-100 mt-5  input " id="country" name="country" value="" type="text" required>
+                </div>
+                <div class="width-50 mobile">
+                    <label class="fs-14 dark" for="mobile">Mobile</label><span class="red">*</span><br>
+                    <input class="width-100 mt-5 input" id="mobile" name="mobile" value="" type="text" required>
+                </div>
+            </div>
+        </div>
+        <div class="right regbtn-div">
+            <button class="btn bg-red white mt-20 mr-60 wd-15 reg" id="submit_btn">CONTINUE</button>
+        </div>
+        <div class="mt-100 center">
+            <p class="fs-12 fw-R grey">Copyright 2019. Cecula Limited. All Rights Reserved.</p>
+            <p class="fs-12 fw-R grey">5B Adisa Lawal Keshinro Street, Ajah, Lagos, Nigeria. <br> sales@cecula.com</p>
+        </div>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

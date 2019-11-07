@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="118" height="28" viewBox="0 0 118 28">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FF2500" d="M14 28C6.268 28 0 21.732 0 14S6.268 0 14 0s14 6.268 14 14-6.268 14-14 14zm-2.865-4.822c.99.365 2.057.563 3.17.563 5.21 0 9.434-4.36 9.434-9.74s-4.224-9.74-9.435-9.74C9.094 4.26 4.87 8.62 4.87 14c0 2.09.638 4.028 1.724 5.614l-1.021 5.342 5.562-1.779z"/>
+        <text fill="#4D4D4D" font-family="Montserrat-Bold, Montserrat" font-size="27" font-weight="bold" letter-spacing="-.745" transform="translate(0 -2)">
+            <tspan x="29.679" y="26">Cecula</tspan> <tspan x="103.283" y="26"></tspan>
+        </text>
+    </g>
+</svg>

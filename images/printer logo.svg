@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 55.2 (78181) - https://sketchapp.com -->
+    <title>AE792D4D-D301-437D-B2E1-7FE30C0CB4CE</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="Wide-Screen" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="PF-Make-Payment-Flutterwave" transform="translate(-674.000000, -268.000000)">
+            <g id="feather-printer" transform="translate(673.000000, 267.000000)">
+                <g id="Icon" stroke="#FF2500" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                    <g id="Icon-Group" transform="translate(2.000000, 2.000000)">
+                        <polyline id="Icon-Path" points="4 7 4 0 16 0 16 7"></polyline>
+                        <path d="M4,16 L2,16 C0.8954305,16 0,15.1045695 0,14 L0,9 C0,7.8954305 0.8954305,7 2,7 L18,7 C19.1045695,7 20,7.8954305 20,9 L20,14 C20,15.1045695 19.1045695,16 18,16 L16,16" id="Icon-Path"></path>
+                        <polygon id="Icon-Path" points="4 12 16 12 16 20 4 20"></polygon>
+                    </g>
+                </g>
+                <rect id="ViewBox" fill-rule="nonzero" x="0" y="0" width="24" height="24"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
